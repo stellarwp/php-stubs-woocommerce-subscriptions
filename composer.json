@@ -1,0 +1,24 @@
+{
+    "name": "stellarwp/php-stubs-woocommerce-subscriptions",
+    "description": "PHP tags for WooCommerce Subscriptions for use in PHPStan",
+    "type": "library",
+    "keywords": [
+	    "wordpress",
+	    "static analysis",
+	    "phpstan"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "StellarWP",
+            "email": "vendors@stellarwp.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+	    "php-stubs/wordpress-stubs": "^5.3 || ^6.0"
+    },
+    "require-dev": {
+        "php-stubs/generator": "^0.8.4"
+    }
+}
